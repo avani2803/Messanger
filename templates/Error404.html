@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Login</title>
+  <link rel="icon" href="{% static 'img/logo.png'    %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'    %}"/>
+  <link href="{% static 'css/css_index.css'    %}" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css"><link href="{% static 'css/css_index.css'    %}" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body>
+      
+   <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                             <img src="{% static 'img/logo.png'    %}" id="img3" /> Messenger Book
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="/logout">logout</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+            <div class="login-box">
+                <h1 style="color:skyblue;">Error 404</h1>
+            </div>
+  </div>  
+	<div class="footer">
+           <i> All Right reserved &copy 2018</i>
+	</div>		
+
+  <script src="{% static 'js/jquery.min.js'    %}"></script>
+  <script src="{% static 'js/index.js'    %}"></script>
+  <script src="{% static 'js/confirm.js'    %}"></script>
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="{% static 'img/pro.mp4'    %}" type="video/mp4">       
+    </video>
+</div>
+
+</body>
+
+</html>
